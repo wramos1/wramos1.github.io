@@ -6,4 +6,5 @@ body, html {
 
 * {
   font-family: 'IBM Plex Serif', serif;
+  transition: all 1s;
 }

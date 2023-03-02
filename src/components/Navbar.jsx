@@ -1,6 +1,13 @@
 import React from 'react'
+import Resume from '../CopyOfWillyamRamosResume.pdf';
 
 const Navbar = () => {
+
+    const hamburgerAppear = () => {
+        document.querySelector('.hamburger').classList.toggle('appear');
+        document.querySelector('.links').classList.toggle('appear');
+    }
+
     return (
         <nav className='navbar' >
             <div>
@@ -32,11 +39,17 @@ const Navbar = () => {
                     </li>
 
                     <li className='resume-btn'>
-                        <a href='resume'>
+                        <a href={Resume} target='_blank' rel='noreferrer'>
                             Resume
                         </a>
                     </li>
                 </ul>
+            </div>
+
+            <div className="hamburger" onClick={hamburgerAppear}>
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </div>
         </nav >
     )
