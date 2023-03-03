@@ -17,7 +17,7 @@
 #home {
   font-weight: 100;
   font-size: 2rem;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 #home a:hover {
@@ -80,16 +80,57 @@ a {
 
 .home-contents {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 100%;
-  width: 40%;
+  width: 45%;
   margin: 0 3%;
-  border: 1px solid black;
   flex-direction: column;
 }
 
-.home-contents h1 {
-  font-weight: 100;
+.intro h1{
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.intro p {
+  font-size: 2.3rem;
+}
+
+.home-icons {
+  display: flex; 
+  gap: 2%;
+}
+
+.home-icon{
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home-icon:hover {
+  transform: translateY(-8px);
+}
+
+.cat-btn {
+  background: #574142;
+  color: #CBBDBD;
+  display: flex; 
+  align-self: flex-start;
+  margin-top: 3%;
+  padding: 8px 15px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.cat-btn:hover {
+  filter: brightness(70%);
+}
+
+.home-icon-a svg:hover path:nth-of-type(1) {
+  filter: brightness(80%);
 }
 
 .highlights {
@@ -102,6 +143,10 @@ a {
   }
   .links {
     font-size: 1rem;
+  }
+
+  .home-contents{
+    width: 65%;
   }
 }
 
@@ -154,6 +199,33 @@ a {
 
 .home-contents {
   width: 100%;
+  align-items: center;
+}
+
+.intro h1{
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.home-icons {
+  justify-content: center;
+  align-items: center;
+  gap: 40%;
+}
+
+.cat-btn {
+  align-self: center;
+  padding: 9px 30px; 
+}
+
+.home-icon{
+  width: 45px;
+  height: 45px;
 }
 }
 
