@@ -1,0 +1,77 @@
+#aboutMe {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+}
+
+.about-contents {
+    display: flex;
+    width: inherit;
+}
+
+.about-contents h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.summary-section {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.summary-section p {
+    padding: 0 5rem;
+    font-size: 1.3rem;
+    color: #242C3C;
+}
+
+.summary-section p span {
+    cursor: pointer;
+    text-decoration: 2px underline #574142;
+}
+
+.summary-section p span a {
+    text-decoration: none;
+    color: black;
+}
+
+.summary-section-btn {
+    margin-left: 5rem;
+    align-self: flex-start;
+    background: #574142;
+    color: #CBBDBD;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.skills-section{
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4em;
+    list-style: none;
+    padding-left: 0;
+    width: 75%;
+}
+
+.skills-list li {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    background: #CBBDBD;
+    color: #574142;
+}

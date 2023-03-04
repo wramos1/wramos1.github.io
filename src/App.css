@@ -137,16 +137,30 @@ a {
   color: #574142;
 }
 
+.section-title {
+  border-bottom: 2px solid #CBBDBD;
+  font-size: 3rem;
+}
+
 @media (max-width: 1280px) {
   #home {
     font-size: 1.5rem
   }
+
   .links {
     font-size: 1rem;
   }
 
   .home-contents{
-    width: 65%;
+    width: 55%;
+  }
+
+  .intro h1{
+    font-size: 2.85rem;
+  }
+  
+  .intro p {
+    font-size: 1.9rem;
   }
 }
 
@@ -208,7 +222,7 @@ a {
 }
 
 .intro p {
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   text-align: center;
 }
 
