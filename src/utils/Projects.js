@@ -3,6 +3,24 @@ import SuperTeamLogo from '../images/cape.png';
 import NoumeLogo from '../images/noume.png';
 import WtwLogo from '../images/film.png';
 
+import WeightPlateMenu from '../images/weight-plate/menu.png';
+import WeightPlateBag from '../images/weight-plate/my-bag.png';
+import WeightPlateProduct from '../images/weight-plate/product.png';
+import WeightPlateMap from '../images/weight-plate/order-map.png';
+
+import SuperTeamFrontCard from '../images/super-team/front-card.png';
+import SuperTeamBackCard from '../images/super-team/back-card.png';
+import SuperTeamHome from '../images/super-team/super-team-home.png'
+import SuperTeamRandomize from '../images/super-team/super-team-randomize.png';
+import SuperTeamBuild from '../images/super-team/super-team-build.png';
+import SuperTeamTeam from '../images/super-team/team.png';
+
+import WtwServices from '../images/where-to-watch/services.png';
+import WtwHome from '../images/where-to-watch/Where-To-Watch.png';
+import WtwType from '../images/where-to-watch/movie-or-show.png';
+import WtwResults from '../images/where-to-watch/results.png';
+import WtwSearch from '../images/where-to-watch/search-or-randomize.png';
+
 export const topProjects = [
     {
         index: 1,
@@ -10,11 +28,28 @@ export const topProjects = [
         name: 'Weight Plate',
         liveLink: 'https://weight-plate.vercel.app/',
         codeLink: 'https://github.com/wramos1/weight-plate',
-        imgSrc: ['dd'],
+        imgsWithDescriptions: [
+            {
+                imgSrc: WeightPlateMenu,
+                description: ''
+            },
+            {
+                imgSrc: WeightPlateProduct,
+                description: ''
+            },
+            {
+                imgSrc: WeightPlateBag,
+                description: ''
+            },
+            {
+                imgSrc: WeightPlateMap,
+                description: ''
+            },
+        ],
         stack: ['React', 'ShopifyAPI', 'GraphQL', 'NextJS', 'TailwindCSS']
     },
     {
-        index: 1,
+        index: 2,
         logo: NoumeLogo,
         name: 'Noume',
         liveLink: '',

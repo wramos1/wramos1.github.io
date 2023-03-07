@@ -1,0 +1,76 @@
+#myWork {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlighted-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+.project-preview-div{
+    background: #CBBDBD;
+    color: black;
+    display: flex;
+    width: 40%;
+    margin: 3rem;
+    max-height: 250px;
+    border-left: 5px solid #574142;
+}
+
+.project-preview-logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115px;
+    padding: 0.8rem 1.55rem;
+}
+
+ .project-preview-logo img{
+    width: 95%;
+    height: inherit;
+    object-fit: contain; 
+}
+
+.project-preview-title {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.project-preview-title h1 {
+    font-size: 1.8rem;
+}
+
+.project-preview-title h1:nth-of-type(2){
+    font-weight: 350;
+    font-family: 'Ui monospace', sans-serif;
+}
+
+@media (max-width: 1280px){
+    .project-preview-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .project-preview-div{
+        max-height: 200px;
+    }
+
+    .project-preview-logo{
+        padding: 0.5rem 1.55rem;
+    }
+
+    .project-preview-div{
+        margin: 1rem;
+    }
+}

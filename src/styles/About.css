@@ -75,3 +75,25 @@
     background: #CBBDBD;
     color: #574142;
 }
+
+
+@media (max-width: 1280px) {
+    .summary-section p {
+        padding: 0 2.5rem;
+        font-size: 1rem;
+    }
+
+    .summary-section-btn {
+        margin-left: 2.5rem;
+    }
+
+    .skills-list {
+        width: 80%;
+        gap: 3em;
+    }
+
+    .skills-list li {
+        width: 125px;
+        font-size: 1rem;
+    }
+}
