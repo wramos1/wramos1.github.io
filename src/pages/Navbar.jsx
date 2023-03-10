@@ -27,7 +27,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='quick-link'>
-                        <a href="#work">
+                        <a href="#myWork">
                             My Work
                         </a>
                     </li>

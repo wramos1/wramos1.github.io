@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     min-height: 500px;
+    scroll-margin-top: 150px;
 }
 
 .about-contents {
@@ -78,6 +79,9 @@
 
 
 @media (max-width: 1280px) {
+    #aboutMe {
+        scroll-margin-top: 100px;
+    }
     .summary-section p {
         padding: 0 2.5rem;
         font-size: 1rem;
@@ -93,7 +97,7 @@
     }
 
     .skills-list li {
-        width: 125px;
+        width: 120px;
         font-size: 1rem;
     }
 }

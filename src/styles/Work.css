@@ -4,25 +4,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: -500px;
 }
 
 .highlighted-projects {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    gap: 3rem;
+    gap: 10%;
+    row-gap: 75px;
 }
 
 .project-preview-div{
     background: #CBBDBD;
     color: black;
     display: flex;
-    width: 40%;
-    margin: 3rem;
+    max-width: 650px;
     max-height: 250px;
+    flex-basis: 40%;
     border-left: 5px solid #574142;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.project-preview-div:hover {
+    transform: translateY(-10px);
+    filter: brightness(70%);
 }
 
 .project-preview-logo {
@@ -57,20 +67,109 @@
     font-family: 'Ui monospace', sans-serif;
 }
 
+.noteworthy-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5%;
+    row-gap: 20px;
+    margin: 1% 5%;
+    width: 100%;
+}
+
+.noteworthy-project {
+    clip-path: polygon(0 0, 30% 0, 37% 10%, 100% 10%, 100% 100%, 0 100%);
+    max-width: 350px;
+    flex-basis: 100%;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    text-align: center;
+    background: #CBBDBD;
+    padding-bottom: 10px;
+}
+
+.noteworthy-project-summary {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.noteworthy-project-summary h1 {
+    font-size: 2rem;
+}
+
+.noteworthy-project-summary-description{
+    font-size: 0.9rem;
+    margin: 0 20px;
+}
+
+.tech-stack {
+    font-size: 0.8rem;
+}
+
+.noteworthy-project-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.noteworthy-project-btns button {
+    height: 35px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.noteworthy-project-btns button:nth-of-type(1){
+    background: #574142;
+    color: white;
+    border: 1px solid white;
+}
+
+.noteworthy-project-btns button:nth-of-type(1):hover {
+    background: transparent;
+    color: #574142;
+    border: 1px solid #574142;
+}
+
+.noteworthy-project-btns button:nth-of-type(2){
+    background: transparent;
+    color: #574142;
+    border: 1px solid #574142;
+}
+
 @media (max-width: 1280px){
+    #myWork{
+    scroll-margin-top: 70px;
+    }
     .project-preview-title h1 {
         font-size: 1.5rem;
-    }
-
-    .project-preview-div{
-        max-height: 200px;
     }
 
     .project-preview-logo{
         padding: 0.5rem 1.55rem;
     }
 
-    .project-preview-div{
-        margin: 1rem;
+    .project-preview-div {
+        min-width: 500px;
+    }
+
+    .noteworthy-project-summary h1 {
+        font-size: 1.5rem;
+        color: #574142;
     }
 }
