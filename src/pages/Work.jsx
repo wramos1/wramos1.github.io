@@ -23,7 +23,7 @@ const Work = () => {
             </div>
 
 
-            <h2>
+            <h2 className='noteworthy-title'>
                 Other Noteworthy Projects
             </h2>
 

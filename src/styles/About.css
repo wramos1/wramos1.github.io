@@ -101,3 +101,29 @@
         font-size: 1rem;
     }
 }
+
+@media (max-width: 768px){
+    .about-contents {
+        flex-direction: column;
+    }
+
+    .summary-section-btn {
+        margin-left: revert;
+        align-self: center;
+        margin-top: 5px;
+        margin-bottom: 35px;
+    }
+
+    .summary-section p {
+        text-align: center;
+    }
+
+    .skills-list{
+        gap: 2rem;
+        width: 90%;
+    }
+
+    .skills-list li {
+        width: 100px;
+    }
+}
