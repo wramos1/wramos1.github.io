@@ -5,9 +5,13 @@
   align-items: center;
   position: fixed;
   width: 100%;
-  z-index: 99;
+  z-index: 90;
   max-height: 80px;
   transition: all 0.5s;
+}
+
+.not-fixed {
+  position: revert;
 }
 
 .navbar-top {

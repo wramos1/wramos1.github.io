@@ -92,6 +92,10 @@
     .form-container {
         width: 80%;
     }
+
+    #contact {
+        scroll-margin-top: 50px;
+    }
 }
 
 @media (max-width: 768px){
@@ -101,9 +105,5 @@
 
     #contact-form{
         width: 85%;
-    }
-
-    #contact {
-        scroll-margin-top: 40px;
     }
 }
