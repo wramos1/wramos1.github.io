@@ -39,11 +39,11 @@ const About = () => {
                         Moreover, I am constantly looking for new ways to
                         expand my knowledge of all things web development and
                         am always fascinated by the ways in which technology
-                        continues to improve. Feel free to <span className="highlights"><a href="#contactMe">contact me</a> </span> if you
+                        continues to improve. Feel free to <span className="highlights"><a href="#contact">contact me</a> </span> if you
                         have an opportunity that aligns with my expertise.
                     </p>
 
-                    <a className='summary-section-btn' href='#contactMe'>
+                    <a className='summary-section-btn' href='#contact'>
                         Contact Me
                     </a>
                 </div>
