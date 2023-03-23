@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b303c9c.css",
+    "main.js": "/static/js/main.3a49301b.js",
+    "static/js/787.6388ec90.chunk.js": "/static/js/787.6388ec90.chunk.js",
+    "static/media/super-team-build.png": "/static/media/super-team-build.0b4e87a4a0ea9015dee4.png",
+    "static/media/super-team-randomize.png": "/static/media/super-team-randomize.2c2546a5159907f18f9b.png",
+    "static/media/super-team-home.png": "/static/media/super-team-home.6f887b689490fa30a445.png",
+    "static/media/product.png": "/static/media/product.0eaeba0672818a84cf8e.png",
+    "static/media/NoumeHome.png": "/static/media/NoumeHome.146bce75a451bfd105aa.png",
+    "static/media/team.png": "/static/media/team.2e9cbc08607b44e12c3e.png",
+    "static/media/results.png": "/static/media/results.ab99e66d0703ebda4753.png",
+    "static/media/menu.png": "/static/media/menu.e001c424f57bb23d9539.png",
+    "static/media/order-map.png": "/static/media/order-map.4f05f61b42ce70596400.png",
+    "static/media/SingleNoume.png": "/static/media/SingleNoume.6aadb4d482195ea795b3.png",
+    "static/media/services.png": "/static/media/services.397a3c890b1d1d69f3a2.png",
+    "static/media/NoumesList.png": "/static/media/NoumesList.c88fd40cdc53cea37bb4.png",
+    "static/media/my-bag.png": "/static/media/my-bag.b08826bd40078c80d726.png",
+    "static/media/MyNoumes.png": "/static/media/MyNoumes.3032e6b1f2f0555fe0f2.png",
+    "static/media/search-or-randomize.png": "/static/media/search-or-randomize.9df58ec6999f06e14591.png",
+    "static/media/movie-or-show.png": "/static/media/movie-or-show.26affed488e3d4d18b42.png",
+    "static/media/store-logo.png": "/static/media/store-logo.d314e8aca72d25ea2613.png",
+    "static/media/cape.png": "/static/media/cape.bb45190a1c09232f6e85.png",
+    "static/media/CopyOfWillyamRamosResume.pdf": "/static/media/CopyOfWillyamRamosResume.1856e498c8bdaf6d9d1c.pdf",
+    "static/media/Where-To-Watch.png": "/static/media/Where-To-Watch.02e381a557a6828a1c61.png",
+    "static/media/film.png": "/static/media/film.2ff7ec14c29579508cd2.png",
+    "static/media/noume.png": "/static/media/noume.ab857a9b8844c7b721ba.png",
+    "index.html": "/index.html",
+    "main.4b303c9c.css.map": "/static/css/main.4b303c9c.css.map",
+    "main.3a49301b.js.map": "/static/js/main.3a49301b.js.map",
+    "787.6388ec90.chunk.js.map": "/static/js/787.6388ec90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b303c9c.css",
+    "static/js/main.3a49301b.js"
+  ]
+}
