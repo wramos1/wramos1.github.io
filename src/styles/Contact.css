@@ -38,6 +38,10 @@
     align-items: center;
 }
 
+.contact-icon {
+    padding-left: 5px;
+}
+
 #contact-form .filled {
     border-bottom: 2px solid #574142;
 }
