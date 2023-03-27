@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Resume from '../CopyOfWillyamRamosResume.pdf';
+import Resume from '../Resume.pdf';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);

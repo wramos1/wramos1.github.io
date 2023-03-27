@@ -174,8 +174,9 @@
 
 @media(max-width: 768px){
     .project-overview {
-        height: 80%;
-        width: 95%;
+        height: 70%;
+        width: 90%;
+        margin-bottom: 35px;
     }
 
     .description-for-img {
