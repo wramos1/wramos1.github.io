@@ -152,6 +152,13 @@ export const otherProjects = [
         codeLink: 'https://github.com/wramos1/DadJokeTierList',
     },
     {
+        name: 'Grade Calculator',
+        description: 'Designed this app to help me calculate my grades throughout the school year because of teachers constantly hiding that information in my classes.',
+        stack: ['JavaScript, Local Storage, HTML, CSS'],
+        livelink: 'https://willyamramos.dev/grade-calculator/',
+        codeLink: 'https://github.com/wramos1/grade-calculator'
+    },
+    {
         name: 'What To Make',
         description: 'This project fetches recipes for the ingredients you have at home and provides the instructions in an easy-to-read manner. Begin your journey to Master Chef.',
         stack: ['React', 'Redux', 'External APIs', 'HTML', 'CSS'],
